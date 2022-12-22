@@ -24,7 +24,7 @@ body{
     background-color: hsl(213, 19%, 18%);
 }
 #Tela1{
-    display: none;
+    
     height: auto;
     
 }
@@ -96,9 +96,10 @@ body{
     color: white;
 }
 #Tela2{
+    
     text-align: center;
    justify-content: center;
-    display: flex;
+    display: none;
    flex-direction: column;
     align-items: center;
     
