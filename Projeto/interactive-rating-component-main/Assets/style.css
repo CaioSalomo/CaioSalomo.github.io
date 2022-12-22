@@ -33,7 +33,7 @@ body{
     color: white;
     
 }
-#Tela1 h4{
+#Tela1 p{
     margin-top: 15px;
     font-weight: 400;
 }
@@ -116,7 +116,7 @@ body{
 
    
 }
-#js h4{
+#js p{
     
     font-weight: 400;
     color:hsl(25, 97%, 53%);

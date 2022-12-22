@@ -1,6 +1,6 @@
 var selecionado= false;
 function PegaVal(valor){
-    document.getElementById("js").innerHTML =`<h4 >You selected ${valor} out of 5</h4>`;
+    document.getElementById("js").innerHTML =`<p >You selected ${valor} out of 5</p>`;
     selecionado=true 
    
 }
