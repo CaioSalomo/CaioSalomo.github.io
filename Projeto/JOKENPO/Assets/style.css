@@ -75,13 +75,14 @@ img{
     border-radius: 50px;
 }
 #Enemy div{
-    display: flex;
+    display: block;
     height: 100px;
-    width: 150px;
+    width: 200px;
     margin: 10px;
-    border-radius: 50px;
+    border-radius: 20px;
     background-color: rgb(240, 239, 255);
     align-items: center;
     justify-content: center;
+    text-align: center;
 
 }

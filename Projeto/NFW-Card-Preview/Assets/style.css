@@ -1,0 +1,142 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    border: none;
+    font-family:'Outfit', sans-serif;
+
+}
+h1{
+    margin-top: 20px;
+    text-align: justify;
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+}
+p{margin-top: 20px;
+    text-align: start;
+    font-size: 15px;
+    font-weight: 300;
+    color: hsla(215, 52%, 70%, 0.80);
+}
+
+body{
+    height:100vh;
+}
+#fundo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+   
+    
+    background-color: hsl(217, 54%, 11%);
+    
+    
+
+}
+#Back{
+    box-shadow: 0px 0px 40px hsl(216, 32%, 9%);
+    display: flex;
+    height: 500px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: hsl(216, 50%, 16%);
+}
+#Tela{
+    margin: 20px;
+    text-align: center;
+    height: auto;
+    width: auto;
+    border-radius: 10px;
+    background-color: hsl(216, 50%, 16%);
+    
+}
+
+#Nft{
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+}
+.box:hover figure.olho img{
+    opacity: 0.50;
+    
+}
+.box:hover figure.olho svg{
+    opacity: 1;
+    
+}
+#Lad{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+#Val{
+    font-size: 12px;
+    font-weight: 600;
+    color: hsl(178, 100%, 50%);
+}
+#Eth{
+    vertical-align: middle;
+    margin-right: 4px;
+}
+#Name:hover{
+    color: hsl(178, 100%, 50%);
+}
+#Days{
+    font-size: 12px;
+    
+}
+#Clock{
+    vertical-align: middle;
+}
+#Creator{
+    display: flex;
+    text-align: justify;
+    justify-content: start;
+}
+#Creation{
+    font-size: 12px;
+}
+#CName{
+    color: white;
+}
+#CName:hover{
+    color: hsl(178, 100%, 50%);
+}
+#ImgC{
+    margin: 10px;
+    height: 30px;
+    border:1px solid white;
+    border-radius: 20px;
+}
+.box{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    
+}
+.box figure{
+    height: 260px;
+    width: 260px;
+    background-color: aqua;
+    border-radius: 15px;
+}
+
+.box figure.olho svg{
+    position: absolute;
+    opacity: 0;
+    top: 34%;
+    left: 47%; 
+}
+.box figure.olho img{
+    opacity: 1;
+}
+
+
+.Line{
+    height: 1px;
+    background-color: hsl(215, 51%, 70%);
+}
