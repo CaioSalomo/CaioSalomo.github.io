@@ -11,6 +11,7 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 
 body{
@@ -32,7 +33,7 @@ body{
 .cabecalho__menu__link{
     color:var(--cor-azul-claro);
     text-decoration: none;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family:var(--font-secundaria);
     font-weight: 800;
 }
@@ -43,6 +44,7 @@ body{
 
 .apresentacao{
     padding: 10% 15% 17.45% 15%;
+    gap: 82px;
     display: flex;
     align-items: start;
     justify-content: space-between;
@@ -52,6 +54,7 @@ body{
     border-radius: 14px;
 }
 .imagem img{
+    width: 100%;
     border-radius: 20px;
     border: 7px solid Var(--cor-azul-claro);
    
@@ -62,19 +65,19 @@ body{
     
 }
 .apresentacao__conteudo{
-    width: 615px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
 
 .apresentacao__conteudo__titulo{
-    font-size: 36px;
+    font-size: 2.25rem;
     font-family:var(--fonte-principal);
 }
 
 .apresentacao__conteudo__texto{
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family:var(--font-secundaria);
 }
 .apresentacao__conteudo__texto a{
@@ -92,16 +95,16 @@ body{
 .apresentacao__links__subtitulo{
     font-family: var(--fonte-principal);
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .apresentacao__links__link{
-    width: 378px;
+    width: 50%;
     gap: 16px;
     display: flex;
     justify-content: center;
     border-radius: 8px;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     padding: 21.5px 0;
     text-decoration: none;
@@ -122,4 +125,22 @@ body{
     color: var(--cor-preto);
     background-color:var(--cor-azul-claro);
 
+}
+@media (max-width: 1200px){
+    .cabecalho{
+        padding: 3%;
+    }
+    .cabecalho__menu{
+        justify-content: center;
+    }
+    .apresentacao{
+        align-items: center;
+        flex-direction: column-reverse;
+        padding: 15% 0;
+    }
+    .apresentacao__conteudo{
+        padding: 0 5%;
+        width: auto;
+    }
+   
 }
