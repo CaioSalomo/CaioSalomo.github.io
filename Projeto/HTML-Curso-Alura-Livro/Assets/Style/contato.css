@@ -1,0 +1,72 @@
+.e-mail{
+    background-color: var(--cor-branco);
+    padding: 1.5em;
+}
+.e-mail__titulo{
+    background: var(--cor-de-gradiente);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 1.125em;
+    font-weight: 500;
+    margin-bottom: 0.5em;
+    
+}
+.e-mail__texto{
+    background: var(--cor-de-gradiente);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 300;
+    line-height: 24px;
+    margin-bottom: 1.5em;
+    
+    
+}
+
+.e-mail__pesquisa{
+    background-color: transparent;
+    border: 1px solid var(--azul);
+    color: var(--azul);
+    border-radius: 1.5rem;
+    padding: 1em;
+    width: 90%;
+}
+.e-mail__pesquisa::placeholder{
+    color: var(--azul);
+    background: url("../Imagens/Vector.svg") no-repeat ;
+    background-position-y: center;
+    padding-left: 2em;
+
+
+}
+@media  (min-width:1024px) {
+    .e-mail{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2em;
+        gap: 50px;
+    }
+    .e-mail__descricao{
+        width: 32%;
+    }
+    .e-mail__titulo{
+        font-size: 1.5em;
+        line-height: 36px;
+
+    }
+    .e-mail__pesquisa{
+        width: 28.75%;
+        padding: 10px 24px;
+        font-size: 16px;
+    }
+
+}
+@media screen and (min-width:1728px) {
+
+    .e-mail{
+        padding: 3em 12vw;
+    }
+
+}

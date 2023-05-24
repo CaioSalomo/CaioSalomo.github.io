@@ -1,0 +1,58 @@
+hr{
+    margin: 0;
+    border-color:solid var(--cinza-claro);
+}
+
+.rodape{
+    background-color: var(--cor-branco);
+    padding: 1em;
+}
+.rodape2{
+    display: none;
+}
+@media screen and (min-width:1024px) {
+    .rodape{
+        display: none;
+    }
+    .rodape2{
+        background-color: var(--cor-branco);
+        padding: 4em;
+        padding-left: 1.5em;
+        list-style: none;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .rodape2__texto2{
+        font-size: 1.5em;
+    }
+    .educacao__item{
+        display: flex;
+        padding: 0.5em;
+        gap: 8px;
+        align-items: center;
+    }
+    .educacao__links{
+        text-decoration: none;
+        color: var(--cinza);
+    }
+    .educacao__links:hover{
+        color: var(--laranja);
+    }
+    .rodape2__categoria{
+        margin-bottom: 1.5em;
+        color: var(--cinza-claro);
+        text-transform: uppercase;
+    }
+
+}
+@media screen and (min-width:1728px) {
+    .educacao{
+        
+        border-left: 1px solid var(--cinza-claro);
+        padding-left: 1em;
+    }
+    .rodape2__texto2{
+        margin: 0 auto;
+    }
+
+}
