@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+  <title>Contador de Idade</title>
+</head>
+
+<body>
+  <main class="container">
+    <section class="formulario">
+      <div class="form">
+        <div class="form_data">
+          <label for="Day">
+            <p class="form_subtitulo" id="day_subtitulo">Day</p>
+          </label>
+          <input type="number" class="form_data_input day" name="Day" id="Day">
+        </div>
+        <div class="form_data">
+          <label for="Month">
+            <p class="form_subtitulo" id="month_subtitulo">Month</p>
+          </label>
+          <input type="number" class="form_data_input month" name="Month" id="Month">
+        </div>
+        <div class="form_data">
+          <label for="Year">
+            <p class="form_subtitulo" id="year_subtitulo">Year</p>
+          </label>
+          <input type="number" class="form_data_input year" name="Year" id="Year" value="">
+        </div>
+      </div>
+    </section>
+    <div class="subimmit">
+      <hr class="subimmit_divider">
+      <button class="subimmit_buttom"> <img src="./assets/images/icon-arrow.svg" alt="Subimmit"></button>
+    </div>
+  <section class="result">
+    <div class="results">
+      <p class="result_text"><strong class="result_text_valor" id="years">--</strong> years</p>
+      <p class="result_text"><strong class="result_text_valor" id="months">--</strong> months</p>
+      <p class="result_text"><strong class="result_text_valor" id="days">--</strong> days</p>
+    </div>
+  </section>
+    
+  </main>
+  <script src="./js.js"></script>
+</body>
+
+</html>
