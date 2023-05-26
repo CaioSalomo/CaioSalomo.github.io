@@ -70,6 +70,7 @@ body {
 .form_data_input:focus {
   border: 1px solid var(--cor-numero);
 }
+
 /* Fim Formulario */
 
 /* Subimmit */
@@ -128,12 +129,18 @@ body {
   width: 80%;
   color: var(--cor-numero);
 }
-@media screen and (min-width:518px){
+@media screen and (min-width:764px){
+  .container {
+    margin: 20vh auto;
+    width: 40%;
+    padding: 3em 3em;
+    border-radius: 20px 20px 30% 20px;
+  }
   .results{
     text-align: center;
   }
 }
-@media screen and (min-width:1440px) {
+@media screen and (min-width:1000px) {
   .container {
     margin: 20vh auto;
     width: 40%;
