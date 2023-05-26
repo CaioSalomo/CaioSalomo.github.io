@@ -5,6 +5,9 @@ function calcularIdade() {
   var ElementoDia = document.getElementById('Day');
   var ElementoMes = document.getElementById('Month');
   var ElementoAno = document.getElementById('Year');
+  var ElementoDiaerro = document.getElementById('wrong_day').classList;
+  var ElementoMeserro = document.getElementById('wrong_month').classList;
+  var ElementoAnoerro = document.getElementById('wrong_year').classList;
 
   var inputDia = ElementoDia.value;
   var inputMes = ElementoMes.value;
@@ -14,26 +17,38 @@ function calcularIdade() {
   if (inputDia === "" || inputDia < 1|| inputDia > 31)  {
     inputDia = dataAtual.getDate();
     ElementoDia.value = inputDia
+    ElementoDiaerro.remove('hidden')
+    ElementoDiaerro.add('visible')
     ElementoDia.classList.add('input-error');
   }
   else{
     ElementoDia.classList.remove('input-error');
+    ElementoDiaerro.remove('visible')
+    ElementoDiaerro.add('hidden')
   }
   if (inputMes === ""|| inputMes < 1|| inputMes > 12) {
     inputMes = dataAtual.getMonth() + 1;
     ElementoMes.value = inputMes 
+    ElementoMeserro.remove('hidden')
+    ElementoMeserro.add('visible')
     ElementoMes.classList.add('input-error');
   }
   else{
     ElementoMes.classList.remove('input-error');
+    ElementoMeserro.remove('visible')
+    ElementoMeserro.add('hidden')
   }
   if (inputAno === "") {
     inputAno = dataAtual.getFullYear();
     ElementoAno.value = inputAno
+    ElementoAnoerro.remove('hidden')
+    ElementoAnoerro.add('visible')
     ElementoAno.classList.add('input-error');
   }
   else{
     ElementoAno.classList.remove('input-error');
+    ElementoAnoerro.remove('visible')
+    ElementoAnoerro.add('hidden')
   }
 
   var dataNascimento = new Date(inputAno, inputMes - 1, inputDia);

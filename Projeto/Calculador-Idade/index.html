@@ -16,21 +16,24 @@
       <div class="form">
         <div class="form_data">
           <label for="Day">
-            <p class="form_subtitulo" id="day_subtitulo">Day</p>
+            <h4 class="form_subtitulo" id="day_subtitulo">Day</h4>
           </label>
-          <input placeholder="DD" type="number" class="form_data_input day" name="Day" id="Day"></p>
+          <input placeholder="DD" type="number" class="form_data_input day" name="Day" id="Day">
+          <p class="input_erro hidden" id="wrong_day">Must be a valid day</p>
         </div>
         <div class="form_data">
           <label for="Month">
-            <p class="form_subtitulo" id="month_subtitulo">Month</p>
+            <h4 class="form_subtitulo" id="month_subtitulo">Month</h4>
           </label>
           <input placeholder="MM" type="number" class="form_data_input month" name="Month" id="Month">
+          <p class="input_erro hidden" id="wrong_month">Must be a valid Month</p>
         </div>
         <div class="form_data">
           <label for="Year">
-            <p class="form_subtitulo" id="year_subtitulo">Year</p>
+            <h4 class="form_subtitulo" id="year_subtitulo">Year</h4>
           </label>
-          <input placeholder="YYYY" type="number" class="form_data_input year" name="Year" id="Year" value="">
+          <input placeholder="YYYY" type="number" class="form_data_input year" name="Year" id="Year">
+          <p class="input_erro hidden" id="wrong_year">Must be a valid Year</p>
         </div>
       </div>
     </section>

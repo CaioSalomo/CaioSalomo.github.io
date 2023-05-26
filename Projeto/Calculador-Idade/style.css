@@ -17,8 +17,18 @@
 
 .input-error {
   color: rgb(255, 255, 255);
-  border: 1px solid red !important;
-  background-color: rgb(159, 22, 22);
+  border: 1px solid rgb(221, 114, 114) !important;
+  background-color: rgb(103, 26, 26);
+}
+.input_erro{
+  color: rgb(221, 114, 114);
+  font-size: 0.75em;
+}
+.hidden{
+  visibility: hidden;
+}
+.visible{
+  visibility: visible;
 }
 
 body {
@@ -50,6 +60,7 @@ body {
 }
 
 .form_subtitulo {
+  letter-spacing:0.25em;
   margin-bottom: 0;
   font-weight: 700;
   text-transform: uppercase;
