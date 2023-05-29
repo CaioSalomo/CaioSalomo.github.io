@@ -1,0 +1,24 @@
+@import url('./Css/header.css');
+
+
+
+:root{
+  --cor-texto:#FFFFFF;
+  --cor-header:#4650BD;
+  --cor-primaria-verde:#008364;
+  --cor-secundaria:#304968;
+  --cor-terciaria:#36C1A0;
+  --cor-terciaria-coral:#B6BCFF;
+  --cor-gradiente: linear-gradient(180deg, #304968 0%, #36C1A0 52.6%, #4650BD 100%);
+}
+
+*{
+  color:var(--cor-texto) ;
+  margin: 0;
+  padding: 0;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+  background: var(--cor-gradiente) no-repeat;
+}
