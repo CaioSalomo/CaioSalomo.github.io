@@ -1,6 +1,9 @@
 .cabecalho{
   background-color: var(--cor-header);
 }
+.cabecalho_visual{
+  display: none;
+}
 .container{
   display: flex;
   position: relative;
@@ -13,6 +16,8 @@
 }
 .cabecalho_logo{
   width: 80%;
+  max-width: 233.9px;
+  max-height: 64px;
 }
 .cabecalho_menu-hamburguer{
   width: 24px;
@@ -22,16 +27,58 @@
   background-position: center;
   display: inline-block;
 }
+.container_imagem{
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+}
+
 .lista_menu{
+  z-index: 1;
   background: var(--cor-header);
   list-style: none;
-  padding: 1em;
+  padding: 1em 1em 0 1em;
   position: absolute;
   top: 100%;
-  width: 30vw;
+  right: 0;
 }
+/*
+.container_botao:checked~.lista_menu{
+  display: block;
+}*/
 .lista_menu_item{
-  text-align: center;
-  padding: 0.5em 0;
+  padding: 0.75em 0;
   border-bottom: 1px solid var(--cor-texto);
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 1.25em;
+}
+#ingresso{
+  border: none ;
+}
+@media screen and (min-width: 768px) {
+  .cabecalho{
+    display: none;
+  }
+  .container{
+    display: flex;flex-direction: column;
+    padding: 0 0 2em 0;
+    
+  }
+  .cabecalho_visual{
+    display: block;
+    background-color: var(--cor-header);
+    padding: 2em 4em;
+  }
+  .menu{
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  .menu_item{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.25em;
+    
+  }
 }

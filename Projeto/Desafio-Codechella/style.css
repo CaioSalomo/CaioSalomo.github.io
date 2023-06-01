@@ -1,6 +1,9 @@
 @import url('./Css/header.css');
-
-
+@import url('./Css/paraOJS.css');
+@import url('./Css/banner.css');
+@import url('./Css/sobreMim.css');
+@import url('./Css/lineUp.css');
+@import url('./Css/rodape.css');
 
 :root{
   --cor-texto:#FFFFFF;
@@ -10,15 +13,22 @@
   --cor-terciaria:#36C1A0;
   --cor-terciaria-coral:#B6BCFF;
   --cor-gradiente: linear-gradient(180deg, #304968 0%, #36C1A0 52.6%, #4650BD 100%);
+  --fonte-titulo: 'Calistoga';
+  --fonte-textos:'Raleway', sans-serif;
 }
 
 *{
   color:var(--cor-texto) ;
   margin: 0;
   padding: 0;
+  font-family: var(--fonte-textos);
+  text-align: center;
+}
+main{
+  width: 100vw;
 }
 body{
+  font-size: 16px;
   width: 100vw;
-  height: 100vh;
   background: var(--cor-gradiente) no-repeat;
 }

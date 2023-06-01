@@ -1,0 +1,53 @@
+.rodape{
+  display: flex;flex-direction: column;
+  padding: 1.5em;
+  gap: 2.5em;
+}
+.rodape_texto{
+  font-weight: 300;
+  line-height: 40px;
+  font-size: 1em;
+}
+.rodape_img{
+  width: 75%;
+}
+.rodape_redes{
+  align-items: center;
+  display: flex;flex-direction: column;
+  gap: 8px;
+}
+.redes_icones{
+  display: flex;
+  gap: 8px;
+}
+.redes_texto{
+  padding: 0.5em 0;
+  font-size: 1.25em;
+  font-weight: 500;
+}
+.perfil{
+  text-decoration: none;
+  font-weight: 800;
+  color: var(--cor-terciaria);
+}
+.perfil:hover{
+  font-weight: 800;
+  color: var(--cor-terciaria);
+}
+@media screen and (min-width: 760px) {
+  .rodape{
+    gap: 0;
+  }
+  .redes{
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    padding: 1.5em 0 0 0;
+  }
+  .rodape_texto{
+    justify-content: center;
+    display: flex;
+    align-items: end;
+    gap: 0.25em;
+  }
+}
