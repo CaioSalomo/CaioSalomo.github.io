@@ -33,7 +33,7 @@ function atualizarImagem(imagem) {
         imagem.alt = "Homepage2(Tablet)";
         break;
     }
-  } else if (larguraTela<1400) {
+  } else if (larguraTela<1150) {
     switch (dataImagem) {
       case "banner":
         imagem.src = "../Assets/Tema-Boreal/Tablet/Imagens/1 - Banner- Homepage.png";
@@ -48,7 +48,7 @@ function atualizarImagem(imagem) {
         imagem.alt = "Homepage2(Tablet)";
         break;
     }
-  } else if (larguraTela>1400) {
+  } else if (larguraTela>1150) {
     switch (dataImagem) {
       case "banner":
         imagem.src = "../Assets/Tema-Boreal/Desktop/Imagens/1 - Banner - homepage.png";
@@ -88,7 +88,7 @@ function atualizarImagem(imagem) {
         imagem.alt = "A Experiencia3(Tablet)";
         break;
     }
-  } else if (larguraTela<1400) {
+  } else if (larguraTela<1150) {
     switch (dataImagem) {
       case "banner":
         imagem.src = "../Assets/Tema-Boreal/Tablet/Imagens/2 - Banner - A Experiência.png";
@@ -107,7 +107,7 @@ function atualizarImagem(imagem) {
         imagem.alt = "A Experiencia3(Tablet)";
         break;
     }
-  } else if (larguraTela>1400) {
+  } else if (larguraTela>1150) {
     switch (dataImagem) {
       case "banner":
         imagem.src = "../Assets/Tema-Boreal/Desktop/Imagens/2 - Banner - A Experiência.png";
