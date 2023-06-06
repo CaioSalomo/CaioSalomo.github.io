@@ -41,7 +41,7 @@
 .descricao_link{
   width: 40%;
 } 
-}@media screen and (min-width: 1440px) {
+}@media screen and (min-width: 1150px) {
 
   .home_page{
     padding: 4em 7.5em;

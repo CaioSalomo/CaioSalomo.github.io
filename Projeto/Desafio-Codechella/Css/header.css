@@ -80,7 +80,7 @@
     font-weight: 700;
     font-size: 1.25em;
   }
-}@media screen and (min-width: 1440px) {
+}@media screen and (min-width: 1150px) {
   .cabecalho_visual{
     display: flex;flex-direction: row;
     align-items: center;justify-content: space-between;
