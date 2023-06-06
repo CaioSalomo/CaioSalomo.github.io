@@ -1,5 +1,5 @@
 .home_page{
-  padding: 2em 3.75em;
+  padding: 2em 1.5em;
 }
 .home_page-imagem{
   width: 100%;
@@ -41,4 +41,26 @@
 .descricao_link{
   width: 40%;
 } 
+}@media screen and (min-width: 1440px) {
+
+  .home_page{
+    padding: 4em 7.5em;
+    display: flex;
+  }
+  .home_page-imagem{
+    padding:0;
+  }
+  .home_page-descricao{
+    margin: 1.28em 0 1.28em 3.75em ;
+    align-items: center;
+  }
+  .descricao_titulo{
+    margin: 0 2em;
+  }
+  .descricao_texto{
+  margin: 0 1em;
+  }
+  .direita{
+    flex-direction: row-reverse;
+  }
 }

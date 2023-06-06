@@ -1,6 +1,7 @@
 .banner{
   position: relative;
   text-align: center;
+  white-space: nowrap;
 }
 .banner_bem_vindo {
   width: 100%;
