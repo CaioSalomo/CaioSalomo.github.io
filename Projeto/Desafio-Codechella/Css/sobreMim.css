@@ -49,7 +49,9 @@
   }
   .home_page-imagem{
     padding:0;
+    max-height: 400px;
   }
+  
   .home_page-descricao{
     margin: 1.28em 0 1.28em 3.75em ;
     align-items: center;
