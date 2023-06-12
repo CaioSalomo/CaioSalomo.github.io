@@ -1,0 +1,33 @@
+.home-page{
+    display: flex; flex-direction: column;
+    padding: 1em 0;
+    gap: 2em;
+
+}
+.saudacao-2,
+.saudacao{
+    display: flex;
+    background-color: var(--cor-balao);
+    padding: 1em;
+    border-radius: 17px;
+}
+.saudacao__info{
+    display: flex; flex-direction: column;
+    font-size: 0.75em;
+    align-items: center;
+    gap:1em
+}
+.saudacao-2{
+    position: relative;
+}
+.saudacao-2 p{
+    margin-left: 50px;
+}
+.charSemChapeu{
+    position: absolute;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    
+}
+
