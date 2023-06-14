@@ -31,7 +31,7 @@ main{
     opacity: 0;
     transform: scale(0.5);
     background-color: var(--cor-botao);
-    padding: 0.5em;
+    padding: 1em;
     border-radius: 20px;
     font-size: 0.875;
     font-weight: 700;
