@@ -1,0 +1,56 @@
+/* Reset CSS */
+
+/* Remover margens e preenchimentos padrão */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Definir estilos de fonte e cor padrão */
+body {
+  font-family: 'roboto', sans-serif;
+  font-size: 16px;
+  color: #000;
+}
+/* Remover estilos de lista padrão */
+ul, ol {
+  list-style: none;
+}
+/* Remover decoração de link padrão */
+a {
+  text-decoration: none;
+}
+/* Definir comportamento de link */
+a:link,
+a:visited {
+  color: #0000EE;
+}
+/* Definir comportamento de link ao passar o mouse */
+a:hover,
+a:focus {
+  color: #EE0000;
+}
+/* Remover estilo de sublinhado para links não visitados */
+a:link,
+a:visited {
+  text-decoration: none;
+}
+/* Remover estilo de sublinhado ao passar o mouse sobre o link */
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+button {
+  margin: 0;
+  padding: 1em;
+  background: var(--charcoalGrey);
+  border: none;
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 700;
+  color: var(--white);
+  cursor: pointer;
+  outline: none;
+}
+

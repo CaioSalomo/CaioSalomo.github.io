@@ -1,0 +1,23 @@
+
+.sucess__info{
+  padding: 0 1em 2em 1em;
+  height: 100vh;
+  color: var(--charcoalGrey);
+  display: flex;flex-direction: column;
+  justify-content: space-between;
+}
+.sucess__info_text{
+  margin: auto ;
+  display: flex;flex-direction: column;
+  gap: 2em;
+  
+}
+.dismiss{
+  box-sizing: border-box;
+  justify-self: end;
+  padding: 2em 0 1em 0;
+}
+#dismiss{
+  width: 100%;
+}
+

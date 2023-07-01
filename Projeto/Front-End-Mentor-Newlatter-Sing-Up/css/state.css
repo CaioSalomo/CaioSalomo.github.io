@@ -1,0 +1,15 @@
+.-show{
+  display: block;
+}
+.-hidden{
+  display: none;
+}
+#error{
+  color: red;
+  font-weight: 400;
+}
+.-error{
+  background-color: rgba(255, 184, 184, 0.671);
+  color: rgba(255, 0, 0, 0.479);
+  border-color: rgba(255, 0, 0, 0.541);
+}
